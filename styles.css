@@ -98,14 +98,13 @@ body{
 }
 
 .grid-view{
-	display: flex !important;
-	flex-wrap: wrap;
 	width: 100%;
 }
 
 .grid-view .view_item {
+	display: inline-block;
     border: 1px solid #e2efe1;
-    width: 235px;
+    width: 230px;
     padding: 25px;
     text-align: center;
     margin: 10px;
